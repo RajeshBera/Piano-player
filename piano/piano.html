@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano bajaooo </title>
+</head>
+
+<style>
+    div {
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    div:nth-of-type(odd) {
+        display: inline-flex;
+        background: black;
+        height: 15em;
+        width: 4em;
+        border: 1px solid black;
+
+    }
+
+    div:hover {
+        box-shadow: 0 1px 1px rgb(71, 71, 71), 0 1.5em 1em rgb(12, 11, 11);
+
+    }
+
+    div:active {
+        box-shadow: 0 10px 10px rgb(71, 71, 71), 0 1.5em 1em rgb(12, 11, 11);
+    }
+
+    div:nth-of-type(even) {
+        display: inline-flex;
+        height: 15em;
+        width: 4em;
+        background: white;
+        border: 1px solid grey;
+    }
+
+    section {
+        height: 15em;
+        width: 78.3em;
+        background: tomato;
+        position: relative;
+        border: 1px solid black;
+        border-top-left-radius: 80%;
+        border-top-right-radius: 80%;
+    }
+</style>
+
+<body>
+    <section></section>
+    <audio id="myAudio1" src="m2.wav" type="audio/mp3"></audio>
+    <audio id="myAudio2" src="m1.wav" type="audio/mp3"></audio>
+    <audio id="myAudio3" src="m3.wav" type="audio/mp3"></audio>
+    <audio id="myAudio4" src="m4.wav" type="audio/mp3"></audio>
+    <audio id="myAudio5" src="m5.wav" type="audio/mp3"></audio>
+    <audio id="myAudio6" src="m6.wav" type="audio/mp3"></audio>
+    <audio id="myAudio7" src="m7.mp3" type="audio/mp3"></audio>
+    <audio id="myAudio8" src="m8.mp3" type="audio/mp3"></audio>
+    <audio id="myAudio9" src="m9.mp3" type="audio/mp3"></audio>
+    <audio id="myAudio10" src="m10.mp3" type="audio/mp3"></audio>
+    <audio id="myAudio11" src="m11.wav" type="audio/mp3"></audio>
+    <audio id="myAudio12" src="m12.wav" type="audio/mp3"></audio>
+    <audio id="myAudio13" src="m13.wav" type="audio/mp3"></audio>
+    <audio id="myAudio14" src="m14.wav" type="audio/mp3"></audio>
+    <audio id="myAudio15" src="m15.wav" type="audio/mp3"></audio>
+    <audio id="myAudio16" src="m16.mp3" type="audio/mp3"></audio>
+    <audio id="myAudio17" src="m17.mp3" type="audio/mp3"></audio>
+    <audio id="myAudio18" src="m18.mp3" type="audio/mp3"></audio>
+    <div onmouseover="music(1)"></div>
+    <div onmouseover="music(2)"></div>
+    <div onmouseover="music(3)"></div>
+    <div onmouseover="music(4)"></div>
+    <div onmouseover="music(5)"></div>
+    <div onmouseover="music(6)"></div>
+    <div onmouseover="music(7)"></div>
+    <div onmouseover="music(8)"></div>
+    <div onmouseover="music(9)"></div>
+    <div onmouseover="music(10)"></div>
+    <div onmouseover="music(11)"></div>
+    <div onmouseover="music(12)"></div>
+    <div onmouseover="music(13)"></div>
+    <div onmouseover="music(14)"></div>
+    <div onmouseover="music(15)"></div>
+    <div onmouseover="music(16)"></div>
+    <div onmouseover="music(17)"></div>
+    <div onmouseover="music(18)"></div>
+</body>
+<script>
+
+    function music(v) {
+        if (v == 1) {
+            x = document.getElementById("myAudio1");
+            x.play();
+        }
+        else if (v == 2) {
+            x = document.getElementById("myAudio2");
+            x.play();
+        } else if (v == 3) {
+            x = document.getElementById("myAudio3");
+            x.play();
+        } else if (v == 4) {
+            x = document.getElementById("myAudio4");
+            x.play();
+        } else if (v == 5) {
+            x = document.getElementById("myAudio5");
+            x.play();
+        } else if (v == 6) {
+            x = document.getElementById("myAudio6");
+            x.play();
+        } else if (v == 7) {
+            x = document.getElementById("myAudio7");
+            x.play();
+        } else if (v == 8) {
+            x = document.getElementById("myAudio8");
+            x.play();
+        } else if (v == 9) {
+            x = document.getElementById("myAudio9");
+            x.play();
+        } else if (v == 10) {
+            x = document.getElementById("myAudio10");
+            x.play();
+        } else if (v == 11) {
+            x = document.getElementById("myAudio11");
+            x.play();
+        } else if (v == 12) {
+            x = document.getElementById("myAudio12");
+            x.play();
+        } else if (v == 13) {
+            x = document.getElementById("myAudio13");
+            x.play();
+        } else if (v == 14) {
+            x = document.getElementById("myAudio14");
+            x.play();
+        } else if (v == 15) {
+            x = document.getElementById("myAudio15");
+            x.play();
+        } else if (v == 16) {
+            x = document.getElementById("myAudio16");
+            x.play();
+        } else if (v == 17) {
+            x = document.getElementById("myAudio17");
+            x.play();
+        } else if (v == 18) {
+            x = document.getElementById("myAudio18");
+            x.play();
+        }
+    }
+
+
+</script>
+
+</html>
